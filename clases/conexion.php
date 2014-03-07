@@ -28,7 +28,11 @@ class Conexion{
 
 		// SI ES UN INSERT, UPDATE, DELETE
 		//$RESULTADO TRUE O FALSE
+<<<<<<< HEAD
 		if($convertirArray){
+=======
+		if($convertirArray=="convertirArray"){
+>>>>>>> 1758d4923d4fef768416ce04fa1b3ce7737be41b
 			$resultadoArray = $this->convertirArray($resultado);
 			return $resultadoArray;
 		}
